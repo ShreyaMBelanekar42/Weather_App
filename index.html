@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather - App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
-    <link rel="icon" type="image/x-icon" href="assests/sunny.png">
-</head>
-<body>
-    <h1>Hello world</h1>
-</body>
+    <link rel="icon" type="image/x-icon" href="assests/sunny.png" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Enter city name ..." />
+        <button id="searchButton">Search</button>
+      </div>
+      <div class="grid-container" id="weatherDetails"></div>
+    </div>
+  </body>
 </html>
